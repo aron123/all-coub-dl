@@ -1,0 +1,21 @@
+{
+  "name": "all-coub-dl",
+  "version": "1.0.0",
+  "description": "Download all coubs of a Coub user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiss, Aron",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.1.0",
+    "coub-dl": "^1.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.7",
+    "ora": "^6.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
